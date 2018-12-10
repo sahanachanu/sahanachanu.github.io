@@ -1,3 +1,4 @@
+<!--This page shows Work Experience, professional and academic projects -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,13 +8,16 @@
           <title>Portfolio - Sahana Vishwanatha</title>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!--Bootstrap plugins-->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <!--Adding custom css file-->
           <link rel="stylesheet" type="text/css" href="style.css">
         </head>
   </head>
   <body>
+    <!--Navigation bar-->
       <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,8 +41,10 @@
           </div>
         </div>
       </nav>
+      <!--The main container div-->
       <div class="container">
             <div class="container bg-overlay2">
+              <!--The three buttons to navigate to experience, pofessional and academic projects section-->
                 <div class="BtnRow">
                     <button class="SwitchBtn" id="WorkBtn"  onClick="Work();">
                        Work Experience
@@ -51,7 +57,9 @@
                             </button>
                             </div>
                     <hr>
+                    <!--The second container inside main container to hold the three different displays-->
                     <div class="display-conatiner" id="display-container">
+                      <!--COntainer to hold work experience information in a table, appears on page load-->
                            <div class="experience-contain" id="experience-contain">
                                 <div><table class="table-contain"><thead class='table-head'><tr><th>Position</th><th>Employer</th><th>From-To</th><th>Duties</th></tr></thead>
                                     <tbody class='table-body'><tr><td data-label = "Position">Front End Developer</td><td data-label = "Employer">Lighthouse Works.Inc</td><td data-label = "From-To">June 2017 - Present</td><td data-label = "Duties"><ul class="DutyList"><li>Assisted in maintaining public websites and development of custom accessibility initiatives</li> <li>Ensure all front-end UI development meets ADA and WCAG 2.0 accessibility standards.</li>
@@ -65,18 +73,19 @@
                                         </li><li>Got trained in embedded C and using Page description language during development phase</li>
                                         <li>Got trained as a test engineer which included unit testing</li></ul></td></tr></tbody></table></div>
                            </div>
-                          <!-- <div class="professional-contain" id="professional-contain" display="none"></div>
-                           <div class="academic-contain" id="academic-contain" display="none"></div>-->
                 
           </div>
       </div>
       </div>
       
       <script>
+        /*Setting the experience button to active state as it displays the corresponsing page on load*/
          if(document.getElementById("WorkBtn"))
               {
                 document.getElementById("WorkBtn").style.color = "grey";
               }
+
+              /*Function called to display work information and removing all other display containers*/
           function Work(){
             if(document.getElementById("experience-contain"))
                 document.getElementById("experience-contain").remove();
@@ -85,6 +94,7 @@
               if(document.getElementById("academic-contain"))
                 document.getElementById("academic-contain").remove();
 
+              /*Setting and removing active state to buttons*/
               if(document.getElementById("WorkBtn"))
               {
                 document.getElementById("WorkBtn").style.color = "grey";
@@ -115,6 +125,7 @@
               document.getElementById("display-container").appendChild(work);
           }
 
+          /*Function called to display professional project information and removing all other display containers*/
           function Professional(){
             console.log("pro");
               if(document.getElementById("experience-contain"))
@@ -124,6 +135,7 @@
               if(document.getElementById("academic-contain"))
                 document.getElementById("academic-contain").remove();
 
+              /*Setting and removing active state to buttons*/
               if(document.getElementById("WorkBtn").style.color == "grey")
               {
                 document.getElementById("WorkBtn").style.color = "white";
@@ -147,6 +159,7 @@
               document.getElementById("display-container").appendChild(professional);
           }
 
+          /*Function called to display academic project information and removing all other display containers*/
           function Academic(){
             console.log("acad");
             if(document.getElementById("experience-contain"))
@@ -156,6 +169,7 @@
               if(document.getElementById("academic-contain"))
                 document.getElementById("academic-contain").remove();
 
+              /*Setting and removing active state to buttons*/
               if(document.getElementById("WorkBtn").style.color == "grey")
               {
                 document.getElementById("WorkBtn").style.color = "white";
@@ -178,8 +192,10 @@
               document.getElementById("display-container").appendChild(academic);
           }
       </script>
+      <!--ink to Font Awesome from bootstrao to get social icons for footer section-->
               <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
               <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+              <!--Footer section-->
               <footer class="footer">
                 <div class="container1 text-center">
                     <a href="https://www.facebook.com/sahana.vishwanath.3" target="_blank"><i class="fa fa-facebook"></i></a>

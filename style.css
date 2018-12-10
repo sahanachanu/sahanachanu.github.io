@@ -3,6 +3,7 @@
 body{
     height:auto!important;
     min-height:100vh;
+    overflow-x: hidden;
 }
 
 .container{
@@ -391,7 +392,7 @@ body{
         padding-top: 50px;
     }
     .intro-block{
-        margin-top:175px;
+        margin-top:103px;
     }
 
     .IconBox{
@@ -403,11 +404,15 @@ body{
         padding: 0px;
     }
     .Role-Head{
-        font-size:35px;
+        font-size:27px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+
+    .Name{
+        font-size:22px;
+    }
     .Name-Caption{
-        font-size:15px;
+        font-size:13px;
     }
     .img-circle{
         width: 35%;
@@ -466,6 +471,21 @@ body{
   {
     font-size: 18px;
   }
+
+  .intro-block{
+    margin-top:150px;
+}
+.Role-Head{
+    font-size:33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Name{
+    font-size:24px;
+}
+.Name-Caption{
+    font-size:14px;
+}
 
 }
 
@@ -563,16 +583,6 @@ body{
   }
   .bg-overlay1 {
     background-size: 100% 100%;
-}
-.Role-Head{
-    font-size:50px;
-}
-
-.Name{
-    font-size: 30px;
-}
-.Name-Caption{
-    font-size:20px;
 }
 
 .display-conatiner{
