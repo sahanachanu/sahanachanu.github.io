@@ -149,7 +149,7 @@ body{
     text-align: justify;
     font-family: Calibri;
     overflow: auto;
-    max-height: 60vh;
+    max-height: 56vh;
     position: relative;
   }
   
@@ -518,7 +518,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 15%;
     height: 30%;
 }
 .info-para{
@@ -590,6 +590,17 @@ body{
 
 }
  
+@media only screen 
+and (min-width : 768px) {
+
+    .img-circle{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 30%;
+    }
+}
 @media only screen
 and (min-width : 941px) {
     .display-conatiner
@@ -649,10 +660,11 @@ and (min-width : 1020px) {
 
     .display-conatiner{
         font-size:20px;
+        height:47vh;
     }
 
     .SwitchBtn{
-        font-size: 36px;
+        font-size: 22px;
     }
 
     .bg-overlay1 {
