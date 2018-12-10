@@ -1,0 +1,1080 @@
+
+
+body{
+    height:auto!important;
+    min-height:100vh;
+}
+
+.container{
+    height:85vh;
+    
+}
+
+.navbar-inverse{
+    margin-bottom:0px !important;
+}
+
+.nav.navbar-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size:16px;
+}
+
+.bg-overlay1 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/Bg-phone.JPEG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width:100%;
+    padding-top: 50px;
+}
+
+.intro-block{
+    margin-top:167px;
+}
+
+
+.Role-Head{
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Name
+{
+    font-size: 25px;
+    color: #e63e3e;
+}
+
+.Name-Caption{
+    font-size:15px;
+}
+
+
+/*About Me page CSS*/
+.bg-overlay2 {
+    background:url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width:100%;
+    height:85vh;
+}
+
+.profile-pic{
+    width:100%;
+}
+
+.Sub-Header{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+.img-circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 30%;
+}
+.info-para{
+    font-size:18px;
+    text-align:justify;
+    font-family:Calibri;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+  
+  .columnIMG {
+    flex: 33.33%;
+    display:inline;
+  }
+
+  .skill-para{
+    font-size:13px;
+    text-align:justify;
+    font-family:Calibri;
+    margin-right:10px;
+    margin-left:-14px;
+}
+  
+    .IconBox{
+        width:100%;
+    }
+
+  .IconImg{
+      width:5%;
+      margin:8px;
+  }
+
+  .ReferImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 30%;
+    margin-top: 10px;
+  }
+  .BtnRow{
+      display:flex;
+  }
+  .SwitchBtn{
+    background-color: #333; /* Green */
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top:15px;
+    cursor: pointer;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .display-info
+  {
+      overflow-y:auto;
+      overflow-x:hidden;
+      height:70%;
+      position: relative;
+  }
+  .display-conatiner
+  {
+    font-size: 15px;
+    text-align: justify;
+    font-family: Calibri;
+    overflow: auto;
+    max-height: 65vh;
+    position: relative;
+  }
+  
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    color:black;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 3px solid #333;
+  }
+  
+  table th,
+  table td {
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .95em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.DutyList{
+    margin-left: 100px;
+    text-align: left;
+}
+.ProDet{
+    margin-left: -15px;
+    text-align: left;
+}
+  .Proj-Title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin:10px;
+  }
+
+  .Proj-Detail{
+    -moz-box-shadow: 0 0 5px #333;
+    -webkit-box-shadow: 0 0 5px#333;
+    box-shadow: 0 0 5px #333;
+      font-size:18px;
+      font-family: Calibri;
+      text-align: justify;
+      margin:15px;
+  }
+
+  .recommend-image
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width:50%;
+      height:50%;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .footer {
+    background: #333;
+    padding: 18px 0;
+  }
+  .footer a {
+    color: #f5f5f5;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  .footer a:hover {
+    color: blue;
+  }
+
+  .fa{
+      padding:1px !important;
+  }
+
+  .Resume-Download{
+      margin:10px;
+  }
+
+  .Contact-Detail{
+    -moz-box-shadow: 0 0 5px #333;
+    -webkit-box-shadow: 0 0 5px#333;
+    box-shadow: 0 0 5px #333;
+      font-size:18px;
+      font-family: Calibri;
+      text-align: justify;
+      margin:10px;
+  }
+
+  .Info-Head{
+      font-size:25px;
+      font-weight:bold;
+      color:white;
+  }
+  
+ 
+  
+  @media screen and (max-width: 940px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #333;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #333;
+      display: block;
+      font-size: .8em;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  @media only screen and (max-width: 359px)  {
+        .Sub-Header{
+            text-align: center;
+            font-size: 27px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:black;
+        }
+
+        .skill-para{
+            font-size:11px;
+            text-align:justify;
+            font-family:Calibri;
+            margin-right:10px;
+            margin-left:-24px;
+        }
+
+.display-conatiner
+  {
+    font-size: 15px;
+    text-align: justify;
+    font-family: Calibri;
+    overflow: auto;
+    max-height: 60vh;
+    position: relative;
+  }
+
+    .SwitchBtn{
+        font-size:14px;
+    }
+
+    .IconImg{
+        width:4%;
+    }
+      }
+  @media only screen and (min-width: 420px)  {
+
+    
+    .bg-overlay1 {
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/Bg-phone.JPEG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        height: 85vh;
+        width:100%;
+        padding-top: 50px;
+    }
+    .intro-block{
+        margin-top:175px;
+    }
+
+    .IconBox{
+        width:100%;
+    }
+
+  .IconImg{
+      width:11%;
+      padding:5px;
+  }
+    .Role-Head{
+        font-size:35px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .Name-Caption{
+        font-size:15px;
+    }
+    .img-circle{
+        width: 35%;
+    }
+    .rowIMG {
+        margin:10px;
+      }
+
+      .skill-para{
+        font-size:13px;
+    }
+
+    .display-conatiner {
+        font-size: 16px;
+    }
+    .SwitchBtn{
+        font-size:14px;
+        border-radius:30px;
+    }
+
+    .ReferImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 40%;
+        margin-top: 10px;
+      }
+    
+}
+
+@media only screen and (min-width: 560px)  {
+
+    .bg-overlay1 {
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/Bg-phone.JPEG");
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+        color: #fff;
+        width:100%;
+        padding-top: 50px;
+    }
+    .img-circle{
+        width: 25%;
+    }
+
+    .skill-para{
+        font-size:15px;
+    }
+
+    .SwitchBtn{
+        font-size:16px;
+        border-radius:12px;
+    }
+
+    .display-conatiner
+  {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (min-width: 600px)  {
+.ReferImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+    height: 30%;
+    margin-top: 10px;
+  }
+}
+/* iPads (portrait and landscape) -----------*/ 
+@media only screen and (min-width: 720px)  {
+    .container{
+        padding-left:0px !important;
+    padding-right:0px !important;
+    }
+/* STYLES GO HERE */
+.bg-overlay1 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 85vh;
+    width:100%;
+    padding-top: 50px;
+}
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size:16px;
+    float:none;
+}
+.intro-block{
+    margin-top:175px;
+}
+
+.Role-Head{
+    font-size:42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Name-Caption{
+    font-size:15px;
+}
+.img-circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 30%;
+}
+.info-para{
+    font-size:20px;
+    text-align:justify;
+    font-family:Calibri;
+    margin-right:10px;
+    margin-left:10px;
+}
+.rowIMG {
+    display: flex;
+    margin:10px;
+  }
+
+  .columnIMG{
+      margin:10px;
+  }
+
+  .skill-para{
+    font-size:17px;
+}
+
+.IconBox{
+    width:100%;
+}
+
+.IconImg{
+    width:80%;
+}
+
+.display-conatiner
+  {
+    font-size: 20px;
+  }
+  .ReferImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+  }
+  .bg-overlay1 {
+    background-size: 100% 100%;
+}
+.Role-Head{
+    font-size:50px;
+}
+
+.Name{
+    font-size: 30px;
+}
+.Name-Caption{
+    font-size:20px;
+}
+
+.skill-para{
+    font-size: 22px
+}
+.display-conatiner{
+    font-size:18px;
+}
+
+  .Contact-Detail{
+      margin:30px;
+      font-size:25px;
+  }
+
+  .Info-Head{
+      font-size:30px;
+  }
+
+}
+ 
+@media only screen
+and (min-width : 941px) {
+    .display-conatiner
+    {
+        font-size:16px;
+    }
+}
+
+@media only screen
+and (min-width : 1020px) {
+    /*.info-para{
+        font-size:27px;
+    }
+
+    .nav.navbar-nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 19px;
+        float: none;
+    }
+
+    .img-circle{
+        width:70%;
+        height:40%;
+    }*/
+    .skill-para{
+        font-size:30px;
+    }
+    
+    .IconBox{
+        width:100%;
+    }
+    
+    .IconImg{
+        width:65%;
+    }
+
+    /*.SwitchBtn{
+        padding:20px;
+    }
+
+   /* .navbar {
+        position: relative;
+        min-height: 90px !important;
+    }*/
+
+    /*.footer{
+        padding: 0px 0px;
+    }
+    .footer a {
+        color: #f5f5f5;
+        font-size: 36px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }*/
+
+    .display-conatiner{
+        font-size:20px;
+    }
+
+    .SwitchBtn{
+        font-size: 36px;
+    }
+
+    .bg-overlay1 {
+        background-size: 100% 100%;
+    }
+    .intro-block {
+        margin-top: 200px;
+    }
+   /* .Role-Head{
+        font-size:60px;
+    }
+
+    .Name{
+        font-size: 40px;
+    }
+    .Name-Caption{
+        font-size:27px;
+    }*/
+
+    .Contact-Detail {
+        font-size: 35px;
+        margin: 40px;
+    }
+
+    .Info-Head{
+        font-size:40px;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+.container{
+    height:80vh;
+}
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size:16px;
+    float:none;
+}
+
+.bg-overlay1 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 80vh;
+    width:100%;
+    padding-top: 50px;
+}
+
+
+
+/*Intro block on home page*/
+.intro-block{
+    margin-top:175px;
+}
+
+.Role-Head{
+    font-size:42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Name
+{
+    font-size: 25px;
+    color: #e63e3e;
+}
+
+.Name-Caption{
+    font-size:15px;
+}
+
+
+/*About Me page CSS*/
+.bg-overlay2 {
+    background:url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width:100%;
+    height:80vh;
+}
+
+.profile-pic{
+    width:100%;
+}
+
+.Sub-Header{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+.img-circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 30%;
+}
+.info-para{
+    font-size:20px;
+    text-align:justify;
+    font-family:Calibri;
+    margin-right:10px;
+    margin-left:10px;
+}
+.rowIMG {
+    display: flex;
+  }
+  
+  .columnIMG {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .skill-para{
+    font-size:19px;
+    text-align:justify;
+    font-family:Calibri;
+    margin: 10px;
+}
+  .IconBox{
+        width:100%;
+        margin:0px;
+        
+  }
+
+  .IconImg{
+      width:40%;
+  }
+
+
+  .BtnRow{
+      display:flex;
+  }
+  .SwitchBtn{
+    background-color: #333; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   margin-top:15px;
+    cursor: pointer;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .display-info
+  {
+      overflow-y:auto;
+      overflow-x:hidden;
+      height:70%;
+      position: relative;
+  }
+  .display-conatiner
+  {
+      overflow-y:auto;
+      height:60vh;
+      position: relative;
+  }
+  .table-contain {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:black;
+  }
+  
+  .table-head{
+      font-size:20px;
+      font-weight:bold;
+  }
+
+  .table-body{
+      font-size:13px;
+  }
+  td, th {
+    border: 3px solid #333;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .Proj-Title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin:10px;
+  }
+
+  .Proj-Detail{
+    -moz-box-shadow: 0 0 5px #333;
+    -webkit-box-shadow: 0 0 5px#333;
+    box-shadow: 0 0 5px #333;
+      font-size:18px;
+      font-family: Calibri;
+      text-align: justify;
+      margin:15px;
+  }
+
+  .recommend-image
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width:50%;
+      height:50%;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .footer {
+    background: #333;
+    padding: 18px 0;
+  }
+  .footer a {
+    color: #f5f5f5;
+    font-size: 28px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  .footer a:hover {
+    color: blue;
+  }
+
+  .fa{
+      padding:1px !important;
+  }
+
+  .Resume-Download{
+      margin:10px;
+  }
+
+  
+
+  .Contact-Detail{
+    -moz-box-shadow: 0 0 5px #333;
+    -webkit-box-shadow: 0 0 5px#333;
+    box-shadow: 0 0 5px #333;
+      font-size:30px;
+      font-family: Calibri;
+      text-align: justify;
+      margin:15px;
+  }
+
+  .Info-Head{
+      font-size:40px;
+      font-weight:bold;
+      color:white;
+      margin:10PX;
+  }
+  .DutyList{
+    margin-left: 5px;
+    text-align: left;
+}
+
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1600px) {
+/* STYLES GO HERE*/
+.container{
+    width:1500px !important;
+}
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    float: none;
+}
+    .intro-block{
+        margin-top:365px;
+    }
+
+    .Role-Head{
+        font-size:65px;
+    }
+
+    .Name{
+        font-size:45px
+    }
+
+    .Name-Caption{
+        font-size:32px;
+    }
+
+    .img-circle{
+        width:65%;
+    }
+
+    .info-para{
+        font-size:25px;
+    }
+
+        .Sub-Header{
+            font-size:65px;
+        }
+    .skill-para{
+        font-size:27px;
+    }
+    .display-conatiner {
+        overflow-y: auto;
+        height: 65vh;
+        position: relative;
+    }
+
+    .table-body{
+        font-size: 18px;
+    }
+
+    .ReferImg{
+        height:100%;
+    }
+
+    .SwitchBtn{
+        font-size:30px;
+    }
+
+    .navbar-nav {
+        margin: 22px !important;
+    }
+
+    .navbar {
+        position: relative;
+        min-height: 96px !important;
+    }
+
+    .footer a {
+        color: #f5f5f5;
+        font-size: 55px;
+        padding: 37px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }
+}
+
+@media only screen
+and (min-width : 2500px) {
+/* STYLES GO HERE*/
+.container{
+    width:2424px !important;
+}
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 38px;
+    float: none;
+}
+    .intro-block{
+        margin-top:365px;
+    }
+
+    .Role-Head{
+        font-size:65px;
+    }
+
+    .Name{
+        font-size:45px
+    }
+
+    .Name-Caption{
+        font-size:32px;
+    }
+
+    .img-circle{
+        width:75%;
+    }
+
+    .info-para{
+        font-size:29px;
+    }
+
+        .Sub-Header{
+            font-size:70px;
+        }
+    .skill-para{
+        font-size:35px;
+    }
+    .display-conatiner {
+        overflow-y: auto;
+        height: 65vh;
+        position: relative;
+    }
+
+    .table-body{
+        font-size: 22px;
+    }
+
+    .ReferImg{
+        height:100%;
+    }
+    .SwitchBtn{
+        font-size:35px;
+    }
+
+    .navbar-nav {
+        margin: 25px !important;
+    }
+
+    .navbar {
+        position: relative;
+        min-height: 135px !important;
+    }
+
+    .footer a {
+        color: #f5f5f5;
+        font-size: 78px;
+        padding: 50px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }
+    .navbar-nav>li>a {
+        padding-top: 32px !important;
+        padding-bottom: 15px;
+    }
+}

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <title>Bootstrap Example</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li   class="active" ><a href="projects.html">Projects</a></li>
+              <li><a href="refer.html">Recommendations</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+              <div class="Resume-Download">
+              <li><a href="Sahana_Resume.pdf" class="button" download><i class="fa fa-download"></i>Resume</a></li>
+              </div>
+          </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+            <div class="container bg-overlay2">
+                <div class="BtnRow">
+                    <button class="SwitchBtn" id="WorkBtn"  onClick="Work();">
+                       Work Experience
+                    </button>
+                    <button class="SwitchBtn" id="ProfBtn" onClick="Professional();">
+                             Professional Projects
+                        </button>
+                        <button class="SwitchBtn" id="AcadBtn" onClick="Academic();">
+                                Academic Projects
+                            </button>
+                            </div>
+                    <hr>
+                    <div class="display-conatiner" id="display-container">
+                           <div class="experience-contain" id="experience-contain">
+                                <div><table class="table-contain"><thead class='table-head'><tr><th>Position</th><th>Employer</th><th>From-To</th><th>Duties</th></tr></thead>
+                                    <tbody class='table-body'><tr><td data-label = "Position">Front End Developer</td><td data-label = "Employer">Lighthouse Works.Inc</td><td data-label = "From-To">June 2017 - Present</td><td data-label = "Duties"><ul class="DutyList"><li>Assisted in maintaining public websites and development of custom accessibility initiatives</li> <li>Ensure all front-end UI development meets ADA and WCAG 2.0 accessibility standards.</li>
+                                    <li>Used service ticketing system such as JIRA to prioritize task and provide excellent service</li><li>Promoted with increase in salary for successfully realeasing Version 3 and 4 of Supply Chain application</li></ul></td></tr>
+                                    <tr><td data-label = "Position">Web Developer - Team Lead</td><td data-label = "Employer">Dicapta.Inc</td><td data-label = "From-To">August 2016 - February 2017</td><td data-label = "Duties"><ul class="DutyList"><li>Worked as an Intern on an application that helps visually impaired students to work on assignments with ease
+                                            <li>Got credits for implementing Agile methodologies and using Angular4 for front-end development</li><li>
+                                            Used RestFul API and php with Laravel framework.</li></ul></td></tr>
+                                    <tr><td td data-label = "Position">Graduate Teaching Assistant</td><td data-label = "Employer">University of Central Florida</td><td data-label = "From-To">January 2016 - May 2017</td><td data-label = "Duties"><ul class="DutyList"><li>Courses: Fundamentals of IT, Database concepts, Introduction to C programming and Operating Systems</li>
+                                            <li>Promoted as Head TA in Fall 2017; led weekly meetings and supervised five other TA s.</li></ul></td></tr>
+                                    <tr><td td data-label = "Position">Software Engineer Intern</td><td data-label = "Employer">Quest Global.Inc</td><td data-label = "From-To">August 2014 - June 2015</td><td data-label = "Duties"><ul class="DutyList"><li>Worked as a part of team involved in building a Flight Attendant Panel for Airbus, Germany
+                                        </li><li>Got trained in embedded C and using Page description language during development phase</li>
+                                        <li>Got trained as a test engineer which included unit testing</li></ul></td></tr></tbody></table></div>
+                           </div>
+                          <!-- <div class="professional-contain" id="professional-contain" display="none"></div>
+                           <div class="academic-contain" id="academic-contain" display="none"></div>-->
+                
+          </div>
+      </div>
+      </div>
+      
+      <script>
+         if(document.getElementById("WorkBtn"))
+              {
+                document.getElementById("WorkBtn").style.color = "grey";
+              }
+          function Work(){
+            if(document.getElementById("experience-contain"))
+                document.getElementById("experience-contain").remove();
+              if(document.getElementById("professional-contain"))
+                document.getElementById("professional-contain").remove();
+              if(document.getElementById("academic-contain"))
+                document.getElementById("academic-contain").remove();
+
+              if(document.getElementById("WorkBtn"))
+              {
+                document.getElementById("WorkBtn").style.color = "grey";
+              }
+              if(document.getElementById("AcadBtn").style.color == "grey")
+              {
+                document.getElementById("AcadBtn").style.color = "white";
+              }
+              if(document.getElementById("ProfBtn").style.color == "grey")
+              {
+                document.getElementById("ProfBtn").style.color = "white";
+              }
+              
+              var work = document.createElement("div");
+              work.class="experience-contain";
+              work.id="experience-contain";
+              work.innerHTML = '<div><table class="table-contain"><thead class="table-head"><tr><th>Position</th><th>Employer</th><th>From-To</th><th>Duties</th></tr></thead>'
+                                   +'<tbody class="table-body"><tr><td data-label = "Position">Front End Developer</td><td data-label = "Employer">Lighthouse Works.Inc</td><td data-label = "From-To">June 2017 - Present</td><td data-label = "Duties"><ul class="DutyList"><li>Assisted in maintaining public websites and development of custom accessibility initiatives</li> <li>Ensure all front-end UI development meets ADA and WCAG 2.0 accessibility standards.</li>'
+                                    +'<li>Used service ticketing system such as JIRA to prioritize task and provide excellent service</li><li>Promoted with increase in salary for successfully realeasing Version 3 and 4 of Supply Chain application</li></ul></td></tr>'
+                                    +'<tr><td data-label = "Position">Web Developer - Team Lead</td><td data-label = "Employer">Dicapta.Inc</td><td data-label = "From-To">August 2016 - February 2017</td><td data-label = "Duties"><ul class="DutyList"><li>Worked as an Intern on an application that helps visually impaired students to work on assignments with ease'
+                                            +'<li>Got credits for implementing Agile methodologies and using Angular4 for front-end development</li><li>'
+                                            +'Used RestFul API and php with Laravel framework.</li></ul></td></tr>'
+                                    +'<tr><td td data-label = "Position">Graduate Teaching Assistant</td><td data-label = "Employer">University of Central Florida</td><td data-label = "From-To">January 2016 - May 2017</td><td data-label = "Duties"><ul class="DutyList"><li>Courses: Fundamentals of IT, Database concepts, Introduction to C programming and Operating Systems</li>'
+                                            +'<li>Promoted as Head TA in Fall 2017; led weekly meetings and supervised five other TA s.</li></ul></td></tr>'
+                                    +'<tr><td td data-label = "Position">Software Engineer Intern</td><td data-label = "Employer">Quest Global.Inc</td><td data-label = "From-To">August 2014 - June 2015</td><td data-label = "Duties"><ul class="DutyList"><li>Worked as a part of team involved in building a Flight Attendant Panel for Airbus, Germany'
+                                        +'</li><li>Got trained in embedded C and using Page description language during development phase</li>'
+                                        +'<li>Got trained as a test engineer which included unit testing</li></ul></td></tr></tbody></table></div>'
+              document.getElementById("display-container").appendChild(work);
+          }
+
+          function Professional(){
+            console.log("pro");
+              if(document.getElementById("experience-contain"))
+                document.getElementById("experience-contain").remove();
+              if(document.getElementById("professional-contain"))
+                document.getElementById("professional-contain").remove();
+              if(document.getElementById("academic-contain"))
+                document.getElementById("academic-contain").remove();
+
+              if(document.getElementById("WorkBtn").style.color == "grey")
+              {
+                document.getElementById("WorkBtn").style.color = "white";
+              }
+              if(document.getElementById("AcadBtn").style.color == "grey")
+              {
+                document.getElementById("AcadBtn").style.color = "white";
+              }
+              if(document.getElementById("ProfBtn"))
+              {
+                document.getElementById("ProfBtn").style.color = "grey";
+              }
+              var professional = document.createElement("div");
+              professional.class="professional-contain";
+              professional.id="professional-contain";
+              professional.innerHTML = "<div class='Prof-Project-Conatin'><div class='Proj-Title'>Vision Refer - Lighthouse Works.Inc</div>"
+              +"<div class='Proj-Detail'><ul class='ProDet'><li>This project was sponsored by Vision Serve Alliance, in order to facilitate Eye Doctors and Agencies refer Blind and Visually Imapired individual for services.</li><li> It was built using HTML, CSS and JavaScript for front-end, and PHP with Codeigniter in back-end.</li><li>This is a completely accessible web application created by considering all WCAG 2.0 standards.</li><li><a>https://www.visionrefer.com</a></li></ul> </div>"
+              +"<div class='Proj-Title'>Ezbensen - Lighthouse Works.Inc</div><div class='Proj-Detail'><ul  class='ProDet'><li>This project aimed at providing a user-friendly supply chain application for the Products division at Lighthouse Works.</li><li>The application is capable of opening and closing orders, manage clients, assign tasks to employees, create reports, provide statistics with graphs and also track employee time.</li><li>It was created using HTML, CSS, JavaScript, Dojo for front-end and PHP with Codeigniter for back-end.</li></ul></div>"
+              +"<div class='Proj-Title'>Digital Accessibility Device - Dicapta.Inc</div><div class='Proj-Detail'><ul class='ProDet'><li>This project was created to facilitate blind and visually imapaired primary and secondary school students to work effectively with assignments.</li><li> It helped sighted and non-sighted students to interact with each other through a well developed Chat system, which enabled to help each other without barriers.</li><li>This was built using HTML, CSS/SASS, Angular4 for front-end and PHP with Laravel framework for back-end.</li><li>Made use of RestFul API with JSON data formats.</li></ul> </div>"
+              +"<div class='Proj-Title'>Cabin Crew Management Display Unit -  Quest Global.Inc</div><div class='Proj-Detail'><ul class='ProDet'><li>The CCMDU is basically a touch-screen LCD display unit which the cabin crew uses to monitor the various flight requirements.</li><li> My Technical Contribution to the project: Design and Development of CCMDU, Coding in Embedded C for following modules: Sonance, Luminosity and Entryway, Basic Testing</li></ul></div></div>"
+              document.getElementById("display-container").appendChild(professional);
+          }
+
+          function Academic(){
+            console.log("acad");
+            if(document.getElementById("experience-contain"))
+                document.getElementById("experience-contain").remove();
+              if(document.getElementById("professional-contain"))
+                document.getElementById("professional-contain").remove();
+              if(document.getElementById("academic-contain"))
+                document.getElementById("academic-contain").remove();
+
+              if(document.getElementById("WorkBtn").style.color == "grey")
+              {
+                document.getElementById("WorkBtn").style.color = "white";
+              }
+              if(document.getElementById("ProfBtn").style.color == "grey")
+              {
+                document.getElementById("ProfBtn").style.color = "white";
+              }
+              if(document.getElementById("AcadBtn"))
+              {
+                document.getElementById("AcadBtn").style.color = "grey";
+              }
+              var academic = document.createElement("div");
+              academic.class="academic-contain";
+              academic.id="academic-contain";
+              academic.innerHTML = "<div class='Prof-Project-Conatin'><div class='Proj-Title'>Community Rainbow Run</div>"
+              +"<div class='Proj-Detail'><ul class='ProDet'><li>One PULSE Foundation hosted the CommUNITY Rainbow Run in partnership with the DeVos Sport Business Management Program at UCF which became the signature fund raiser for the onePulse foundation.</li><li>This application demanded the use of WordPress and AWS</li><li><a></a>https://www.communityrainbowrun.com</a></li></ul> </div>"
+              +"<div class='Proj-Title'>Zuke Music App</div><div class='Proj-Detail'><ul class='ProDet'><li>A musical application was assigned as a group activity in the Software Engineering course work.</li><li>I was part of a group which worked on android application of the musical app.</li><li>Android studio was used to build the application and GitHub was used for version control.</li></ul></div>"
+              +"<div class='Proj-Title'>Poetry Blog</div><div class='Proj-Detail'><ul class='ProDet'><li>My hobbies of writing poems led me to create a personal poetry blog.</li><li>People can like, comment and also send emails pertaining to any poem in my blog</li><li><a>https.www.thoughtsweaver.info</a></li></ul> </div>"
+              document.getElementById("display-container").appendChild(academic);
+          }
+      </script>
+              <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+              <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+              <footer class="footer">
+                <div class="container1 text-center">
+                    <a href="https://www.facebook.com/sahana.vishwanath.3" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/in/sahana-23" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/sahanachanu" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+              </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>
