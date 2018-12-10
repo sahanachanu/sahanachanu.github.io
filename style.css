@@ -398,10 +398,10 @@ body{
         width:100%;
     }
 
-  .IconImg{
-      width:11%;
-      padding:5px;
-  }
+    .IconImg {
+        width: 7%;
+        padding: 0px;
+    }
     .Role-Head{
         font-size:35px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -538,7 +538,7 @@ body{
   }
 
   .skill-para{
-    font-size:17px;
+    font-size:16px;
 }
 
 .IconBox{
@@ -575,9 +575,6 @@ body{
     font-size:20px;
 }
 
-.skill-para{
-    font-size: 22px
-}
 .display-conatiner{
     font-size:18px;
 }
@@ -620,7 +617,7 @@ and (min-width : 1020px) {
         height:40%;
     }*/
     .skill-para{
-        font-size:30px;
+        font-size:19px;
     }
     
     .IconBox{
