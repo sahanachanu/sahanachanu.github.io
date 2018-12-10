@@ -94,7 +94,7 @@ body{
   }
 
   .skill-para{
-    font-size:13px;
+    font-size:12px;
     text-align:justify;
     font-family:Calibri;
     margin-right:10px;
@@ -149,7 +149,7 @@ body{
     text-align: justify;
     font-family: Calibri;
     overflow: auto;
-    max-height: 65vh;
+    max-height: 60vh;
     position: relative;
   }
   
@@ -780,7 +780,7 @@ and (min-width : 1224px) {
   }
 
   .skill-para{
-    font-size:19px;
+    font-size:18px;
     text-align:justify;
     font-family:Calibri;
     margin: 10px;
