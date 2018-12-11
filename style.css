@@ -207,7 +207,7 @@ body{
     -moz-box-shadow: 0 0 5px #333;
     -webkit-box-shadow: 0 0 5px#333;
     box-shadow: 0 0 5px #333;
-      font-size:18px;
+      font-size:15px;
       font-family: Calibri;
       text-align: justify;
       margin:15px;
@@ -384,17 +384,26 @@ body{
     text-align: justify;
     font-family: Calibri;
     overflow: auto;
-    max-height: 60vh;
+    max-height: 55vh;
     position: relative;
   }
 
     .SwitchBtn{
-        font-size:14px;
+        font-size:12px;
     }
 
     .IconImg{
         width:4%;
     }
+    .Proj-Detail{
+        -moz-box-shadow: 0 0 5px #333;
+        -webkit-box-shadow: 0 0 5px#333;
+        box-shadow: 0 0 5px #333;
+          font-size:12px;
+          font-family: Calibri;
+          text-align: justify;
+          margin:15px;
+      }
       }
   @media only screen and (min-width: 420px)  {
 
