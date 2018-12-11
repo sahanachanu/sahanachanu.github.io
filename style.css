@@ -290,6 +290,10 @@ body{
     .container{
         height:85vh;
     }
+
+    .skill-para{
+        font-size:16px;
+    }
   }
 
   
