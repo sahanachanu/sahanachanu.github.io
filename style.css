@@ -276,7 +276,7 @@ body{
   
   @media screen and (min-height: 500px) and (max-height: 635px) {
    .skill-para{
-       font-size:13px;
+       font-size:10px;
    }
   }
   @media screen and (min-height: 639px) and (max-height: 729px) {
