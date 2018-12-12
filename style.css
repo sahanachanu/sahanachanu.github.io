@@ -24,7 +24,7 @@ body{
 .bg-overlay1 {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/Bg-phone.JPEG");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     color: #fff;
     width:100%;
     padding-top: 50px;
