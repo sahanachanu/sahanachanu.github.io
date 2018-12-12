@@ -307,6 +307,25 @@ body{
         height: 27vh;
         margin-top: 10px;
     }
+    .intro-block{
+        margin-top:180px;
+    }
+    
+    
+    .Role-Head{
+        font-size:38px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .Name
+    {
+        font-size: 28px;
+        color: #e63e3e;
+    }
+    
+    .Name-Caption{
+        font-size:18px;
+    }
   }
 
   
@@ -405,12 +424,12 @@ body{
           margin:15px;
       }
       .intro-block{
-        margin-top:110px;
+        margin-top:70px;
     }
     
     
     .Role-Head{
-        font-size:25px;
+        font-size:24px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
@@ -421,7 +440,7 @@ body{
     }
     
     .Name-Caption{
-        font-size:14px;
+        font-size:13px;
     }
       }
   @media only screen and (min-width: 420px)  {
