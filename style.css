@@ -3,7 +3,6 @@
 body{
     height:auto!important;
     min-height:100vh;
-    overflow-x: hidden;
 }
 
 .container{
@@ -24,14 +23,14 @@ body{
 .bg-overlay1 {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/Bg-phone.JPEG");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     color: #fff;
     width:100%;
     padding-top: 50px;
 }
 
 .intro-block{
-    margin-top:115px;
+    margin-top:167px;
 }
 
 
@@ -207,7 +206,7 @@ body{
     -moz-box-shadow: 0 0 5px #333;
     -webkit-box-shadow: 0 0 5px#333;
     box-shadow: 0 0 5px #333;
-      font-size:14px;
+      font-size:18px;
       font-family: Calibri;
       text-align: justify;
       margin:15px;
@@ -274,14 +273,9 @@ body{
       color:white;
   }
   
-  @media screen and (min-height: 500px) and (max-height: 635px) {
-   .skill-para{
-       font-size:10px;
-   }
-  }
   @media screen and (min-height: 639px) and (max-height: 729px) {
     .container{
-        height:82vh;
+        height:81vh;
     }
   }
 
@@ -294,37 +288,6 @@ body{
   @media screen and (min-height: 810px) and (max-height:1000px) {
     .container{
         height:85vh;
-    }
-
-    .skill-para{
-        font-size:16px;
-    }
-    .ReferImg {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: 27vh;
-        margin-top: 10px;
-    }
-    .intro-block{
-        margin-top:180px;
-    }
-    
-    
-    .Role-Head{
-        font-size:38px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    .Name
-    {
-        font-size: 28px;
-        color: #e63e3e;
-    }
-    
-    .Name-Caption{
-        font-size:18px;
     }
   }
 
@@ -403,44 +366,16 @@ body{
     text-align: justify;
     font-family: Calibri;
     overflow: auto;
-    max-height: 55vh;
+    max-height: 60vh;
     position: relative;
   }
 
     .SwitchBtn{
-        font-size:12px;
+        font-size:14px;
     }
 
     .IconImg{
         width:4%;
-    }
-    .Proj-Detail{
-        -moz-box-shadow: 0 0 5px #333;
-        -webkit-box-shadow: 0 0 5px#333;
-        box-shadow: 0 0 5px #333;
-          font-size:12px;
-          font-family: Calibri;
-          text-align: justify;
-          margin:15px;
-      }
-      .intro-block{
-        margin-top:70px;
-    }
-    
-    
-    .Role-Head{
-        font-size:24px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    .Name
-    {
-        font-size: 22px;
-        color: #e63e3e;
-    }
-    
-    .Name-Caption{
-        font-size:13px;
     }
       }
   @media only screen and (min-width: 420px)  {
@@ -456,7 +391,7 @@ body{
         padding-top: 50px;
     }
     .intro-block{
-        margin-top:103px;
+        margin-top:175px;
     }
 
     .IconBox{
@@ -468,21 +403,17 @@ body{
         padding: 0px;
     }
     .Role-Head{
-        font-size:27px;
+        font-size:35px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-
-    .Name{
-        font-size:22px;
-    }
     .Name-Caption{
-        font-size:13px;
+        font-size:15px;
     }
     .img-circle{
         width: 35%;
     }
     .rowIMG {
-        margin:-5px;
+        margin:10px;
       }
 
       .skill-para{
@@ -535,21 +466,6 @@ body{
   {
     font-size: 18px;
   }
-
-  .intro-block{
-    margin-top:150px;
-}
-.Role-Head{
-    font-size:33px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.Name{
-    font-size:24px;
-}
-.Name-Caption{
-    font-size:14px;
-}
 
 }
 
@@ -647,6 +563,16 @@ body{
   }
   .bg-overlay1 {
     background-size: 100% 100%;
+}
+.Role-Head{
+    font-size:50px;
+}
+
+.Name{
+    font-size: 30px;
+}
+.Name-Caption{
+    font-size:20px;
 }
 
 .display-conatiner{
